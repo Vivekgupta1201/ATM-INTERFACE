@@ -29,10 +29,10 @@
                 </h2>
                 <a href="index.jsp" class="btn-text">Start Transection</a>
             </div>
-                </form>
+           </form>
     </body>
-    <footer>
+    </html>
+   <footer>
   
   <h1 style="color: green">Author:<a style="color: green" href="https://www.linkedin.com/in/vivek-kumar-003624222/">@vivekkumar</a></h1>
 </footer>
-</html>

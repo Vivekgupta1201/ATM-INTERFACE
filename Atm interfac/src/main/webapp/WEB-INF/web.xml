@@ -69,4 +69,14 @@
     <servlet-name>registration</servlet-name>
     <url-pattern>/registration</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>changepin</display-name>
+    <servlet-name>changepin</servlet-name>
+    <servlet-class>com.atm.changepin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>changepin</servlet-name>
+    <url-pattern>/changepin</url-pattern>
+  </servlet-mapping>
 </web-app>

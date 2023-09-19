@@ -35,10 +35,18 @@
                         <p class="card-text header-text-randpass text-sm">Enter PIN </p>
                         <input type="password"  pattern="[0-9]*"  inputmode="numeric"name ="pin" title="PLease Enter Numeric values" placeholder="Enter Your PIN" min="1000" max="9999" required>
                     </div>
+                     <div class="row">
                     
-                    <button type="submit" name="" >SUBMIT</button>
+                    <button type="submit" name="" >SUBMIT</button>   
+                    <a  href="index.jsp" class="btn-text">Back</a>
+                    </div>
+                    
                 </div>
             </form> 
         </main>
     </body>
+    <footer>
+  
+  <h1 style="color: green">Author:<a style="color: green" href="https://www.linkedin.com/in/vivek-kumar-003624222/">@vivekkumar</a></h1>
+</footer>
 </html>

@@ -18,23 +18,33 @@ and open the template in the editor.
     box-sizing: border-box;
 }
 body {
-   margin:0;
+   margin:0%;
    padding:0;
    height:100vh;
    font-family:'Inter',sans-serif;
-   background:#dee2e6;
-   display:flex;
+    background-color: green;
+   background-image: url('https://media4.giphy.com/media/FSqComlFmwuXnFJip8/200w.webp?cid=ecf05e47eplnx88ru9p5hks2ytwv7g3jhykn81fazwfj6x2v&ep=v1_gifs_related&rid=200w.webp&ct=g'), 
+   
+  
+  url('https://media.tenor.com/jVkeuVS4jr8AAAAd/one-touch-thousand-solution.gif');
+    background-position: right bottom,left top , right top  ;
+
+   background-repeat: repeat-x,repeat-x,repeat-y;
+  
+   
+    display:flex;
    align-items:center;
    justify-content:center;
    flex-direction:column;
    gap:20px;
+
 }
 form {
-   padding:30px 50px;
+ /*  padding:30px 50px;
    border:6px solid #6B7280;
    border-radius:10px;
    background:rgb(255, 128, 64);
-   color:rgb(255, 255, 128);
+   color:rgb(255, 255, 128);*/
    margin:auto;
    width:450px;
    height:430px;
@@ -86,11 +96,12 @@ button,.btn-text {
    display:block;
    width:120px;
    height:62px;
-   background:rgb(0, 128, 192);
+   background:rgb(0, 0, 128);
    box-shadow:0px 1px 2px rgba(0,0,0,0.05);
    border-radius:6px;
    font-family:'karla';
    font-style:normal;
+   text-align:center;
    font-weight:500;
    color:#FFFFFF;
    border:none;
@@ -98,9 +109,10 @@ button,.btn-text {
 }
 .btn-text {
    font-size:13px;
+  
    text-align:center;
    line-height:42px;
-   vertical-align:middle;
+   
 }
 .link-page {
    color:black;
@@ -123,33 +135,33 @@ button,.btn-text {
    text-align:center;
 }
 .header-text-randpass {
-   color:#4ADF86;
+   color:rgb(255, 128, 64);
    margin-bottom:25px;
 }
 .row {
    display:flex;
    justify-content:flex-start;
-   gap:20px;
+   gap:50px;
 }
 .model {
-   padding:25px 50px;
+ /*  padding:25px 50px;
    border:6px solid #6B7280;
    border-radius:10px;
-   background:#1F2937;
-   color:rgb(255, 255, 0);
+   background:rgb(255, 128, 0);
+   color:rgb(255, 128, 64);*/
    width:470px;
    height:auto;
    display:flex;
-   gap:5px;
+   gap:50px;
    justify-content:center;
-   flex-direction:column;
+   flex-direction:row;
    align-items:center;
 }
 .align-left {
    align-items:flex-start;
 }
 .main-menu {
-   border:1px solid black;
+   border:5px solid black;
    background:#5e002e;
    padding:10px 20px;
    border-radius:8px;
@@ -181,11 +193,12 @@ table {
    border-collapse:collapse;
 }
 tr:nth-child(1) td {
-   background:#10B981;
+   background:rgb(128, 64, 64);
 }
 td {
    padding:10px 20px;
-   background:#273549;
+   background:rgb(255, 128, 64);
+   
    margin:0;
    border-style:hidden!important;
 }

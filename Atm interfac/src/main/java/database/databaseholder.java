@@ -110,6 +110,23 @@ public class databaseholder {
 	        }
 	        return flag;  
 	    }
+	    
+	public    int pinchange(int pin ,long num) {
+		int flag=0;
+		String Sql ="UPDATE vivek SET pin ="+pin+" where card="+num+"";
+		
+		Statement st;
+        try {
+            st = con.createStatement();
+            st.executeUpdate(Sql);
+            flag = 1;
+        } catch (SQLException ex) {
+        	ex.printStackTrace();
+        }
+        return flag;
+    }
+	    	
+	    
 
 	    public int setValue(String setField,int setFieldValue,long card)
 	    {

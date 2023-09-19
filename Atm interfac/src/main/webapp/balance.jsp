@@ -10,7 +10,7 @@
     <body>  
         <form action="" class="bd-form">
             <div>
-                <h1 class="card-text">Your Balance</h1>
+                <h1 class="card-text header-text-randpass">Your Balance</h1>
                 <h2>
                     <%
                     out.print("₹ ");

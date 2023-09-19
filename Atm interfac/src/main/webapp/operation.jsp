@@ -14,10 +14,11 @@
        %>
         <main>
             <div class="model">
-                <button class="btn btn-withdraw"><a href="withdraw.jsp">Withdraw</a></button>
+                <button class="btn-text"><a href="withdraw.jsp">Withdraw</a></button>
                 <button class="btn btn-deposit"><a href="deposit.jsp">Deposit</a></button>
-                <button class="btn btn-balance"><a href="balance.jsp">Balance Inquiry</a></button>
+                <button type="submit" class="btn btn-balance"><a href="balance.jsp">Balance Inquiry</a></button>
                 <button class="btn btn-mininstatement"><a href="ministatement.jsp">Mini Statement</a></button>
+                <button class="btn btn-pin_change"><a href="pin_change.jsp">pin change</a></button>
                  <button class="btn btn-EXIT"><a href="index.jsp">EXIT</a></button>
             </div>
         </main>
